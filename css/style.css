@@ -1,11 +1,11 @@
 /* Global variables for changing colours across the site */
 :root {
                 --accent: #ffa500;
-		--main: white;
+		--main: #000;
 		--light: red;
 		--lighter: blue;
 		--border: green;
-		--bg: #0a0a0a;
+		--bg: #fff;
                 --filter : invert(1);
 }
 
@@ -220,13 +220,13 @@ a:hover, a:focus, a:active {
 
 
 .typewriter {
-  color: #ffffff;
+  color: #000;
   font-size: 1.5em;
   font-weight: 500;
   width: 0;
   max-width: max-content;
   overflow: hidden; 
-  border-right: .6em solid #ffffff; /* The typwriter cursor */
+  border-right: .6em solid #000; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0; /* Gives that scrolling effect as the typing happens */
 }
@@ -247,5 +247,5 @@ a:hover, a:focus, a:active {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: white }
+  50% { border-color: #000 }
 }
