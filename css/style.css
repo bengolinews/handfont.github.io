@@ -2,7 +2,7 @@
 :root {
                 --accent: #ffa500;
 		--main: #000;
-		--light: red;
+		--light: green;
 		--lighter: blue;
 		--border: green;
 		--bg: #fff;
@@ -111,7 +111,7 @@ p.meta {
 
 li {
   font-size: 1.1em;
-  color: yellow;
+  color: green;
 }
 
 h1, h2, h3, h4, h5, h6 {
